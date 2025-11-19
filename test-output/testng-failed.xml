@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TwitchMobileSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobileTest(failed)">
+    <classes>
+      <class name="com.sporty.tests.TwitchMobileTest">
+        <methods>
+          <include name="searchAndOpenStreamer_mobile"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sporty.tests.TwitchMobileTest -->
+    </classes>
+  </test> <!-- MobileTest(failed) -->
+</suite> <!-- Failed suite [TwitchMobileSuite] -->
